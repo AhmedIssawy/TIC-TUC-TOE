@@ -13,20 +13,6 @@ A simple Tic Tac Toe game built with React that demonstrates basic state managem
 - **Game Log:** (Optional) A log component that tracks each move.
 - **Custom Styling:** Styled with CSS, including animations and responsive design.
 
-## Project Structure
-
-tic-tac-toe-react/ ├── public/ │ ├── index.html │ └── bg-pattern-dark.png 
-# Background image referenced in the CSS
-├── src/ │ ├── components/ │ │ ├── GameBourd.js 
-# The game board component (note the file name "GameBourd" is used) 
- │ ├── Header.js # Header component │ │ ├── Log.js # Log component (for move history) │ │ └── Player.js
- # Player display component │ ├── winning_cominations.js # Exports WINNING_COMBINATIONS │ ├── App.js #
-Main app component
-│ ├── index.js 
-#Application entry point │ └── index.css
-# Global CSS styles ├── .gitignore ├── package.json └── README.md
-
-
 ## Installation
 
 1. **Clone the repository:**
