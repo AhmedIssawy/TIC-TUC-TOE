@@ -285,6 +285,22 @@ ol {
   margin-top: 1.5rem;
 }
 
+@media (max-width: 550px) {
+  /* Target the inner <ol> inside each row of #game-board */
+  #game-board > li > ol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* force 3 columns per row */
+    gap: 0.5rem; /* reduce the gap so cells have room */
+  }
+
+  /* Make the buttons fill their grid cells and maintain a square shape */
+  #game-board button {
+    width: 100%;
+    aspect-ratio: 1 / 1;  /* supported in modern browsers */
+    /* If aspect-ratio isn’t supported, you might need another technique */
+  }
+}
+
 @keyframes slide-in-from-left {
   0% {
     opacity: 0;
@@ -349,3 +365,4 @@ ol {
     transform: scale(1);
   }
 }
+
