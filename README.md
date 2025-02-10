@@ -13,16 +13,16 @@ A simple Tic Tac Toe game built with React that demonstrates basic state managem
 - **Game Log:** (Optional) A log component that tracks each move.
 - **Custom Styling:** Styled with CSS, including animations and responsive design.
 
-## Installation
+## Installation and Running
 
-1. **Clone the repository:**
+
 
    ```bash
    git clone https://github.com/yourusername/tic-tac-toe-react.git
    cd tic-tac-toe-react
    npm i
    npm run dev
-
+   ```
 # LICENSE
   This project is licensed under the MIT License.
 ---
